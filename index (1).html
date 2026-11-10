@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ============ SEO ============ -->
+  <title>Md. Samiujjaman | Frontend Developer Portfolio — SAMIUJJAMAN.DEV</title>
+  <meta name="description" content="Md. Samiujjaman is a Frontend Developer who builds modern, responsive and interactive websites with clean HTML, CSS and JavaScript. Explore projects, skills and services.">
+  <meta name="keywords" content="Md. Samiujjaman, Frontend Developer, JavaScript Developer, Web Designer, Portfolio, HTML, CSS, Bangladesh">
+  <meta name="author" content="Md. Samiujjaman">
+  <meta name="theme-color" content="#05070D">
+  <link rel="canonical" href="https://samiujjaman.dev/">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Md. Samiujjaman | Frontend Developer">
+  <meta property="og:description" content="Modern, responsive and interactive websites with clean code and creative design.">
+  <meta property="og:url" content="https://samiujjaman.dev/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Md. Samiujjaman",
+    "jobTitle": "Frontend Developer",
+    "url": "https://samiujjaman.dev/",
+    "sameAs": [
+      "https://github.com/samiujjaman",
+      "https://linkedin.com/in/samiujjaman",
+      "https://facebook.com/samiujjaman",
+      "https://instagram.com/samiujjaman"
+    ]
+  }
+  </script>
+
+  <!-- Fonts (falls back to system fonts if offline) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ SVG ICON SPRITE ============ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></symbol>
+    <symbol id="i-terminal" viewBox="0 0 24 24"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></symbol>
+    <symbol id="i-pointer" viewBox="0 0 24 24"><path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/></symbol>
+    <symbol id="i-branch" viewBox="0 0 24 24"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></symbol>
+    <symbol id="i-gauge" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></symbol>
+    <symbol id="i-layout" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></symbol>
+    <symbol id="i-zap" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+  </svg>
+
+  <!-- ============ PAGE LOADER ============ -->
+  <div class="loader" id="loader" role="status" aria-live="polite">
+    <div class="loader__inner">
+      <div class="loader__logo">SAMIUJJAMAN <span>SHIMUL</span></div>
+      <div class="loader__bar"><span></span></div>
+      <p class="loader__text">Initializing experience…</p>
+    </div>
+  </div>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Background effects -->
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <nav class="container navbar__inner" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="SAMIUJJAMAN.DEV home">SAMIUJJAMAN <span>SHIMUL</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-cta-mobile"><a href="#" class="btn btn--primary" data-cv>
+          <svg class="icon"><use href="#i-download"/></svg> Download CV</a></li>
+      </ul>
+
+      <a href="#" class="btn btn--primary btn--sm nav-cta" data-cv>
+        <svg class="icon"><use href="#i-download"/></svg> Download CV
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <span class="badge reveal"><i class="badge__dot"></i> AVAILABLE FOR OPPORTUNITIES</span>
+          <h1 class="hero__title reveal">Hi, I'm <span class="gradient-text">Md. Samiujjaman</span></h1>
+          <h2 class="hero__role reveal">Frontend Developer</h2>
+          <p class="hero__typing reveal" aria-live="off">
+            <span class="hero__typing-prefix">&gt;</span>
+            <span id="typingText"></span><span class="caret" aria-hidden="true"></span>
+          </p>
+          <p class="hero__desc reveal">I build modern, responsive, and interactive websites with clean code and creative design. I love turning ideas into beautiful digital experiences.</p>
+
+          <div class="hero__cta reveal">
+            <a href="#projects" class="btn btn--primary">Explore My Work <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a href="#contact" class="btn btn--ghost">Let's Connect</a>
+          </div>
+
+          <ul class="socials reveal" aria-label="Social media">
+            <li><a href="https://github.com/samiujjaman" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg class="icon"><use href="#i-github"/></svg></a></li>
+            <li><a href="https://linkedin.com/in/samiujjaman" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg class="icon"><use href="#i-linkedin"/></svg></a></li>
+            <li><a href="https://facebook.com/samiujjaman" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg class="icon"><use href="#i-facebook"/></svg></a></li>
+            <li><a href="https://instagram.com/samiujjaman" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg class="icon"><use href="#i-instagram"/></svg></a></li>
+          </ul>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="orb orb--1"></div>
+          <div class="orb orb--2"></div>
+          <div class="avatar">
+            <div class="avatar__ring"></div>
+            <div class="avatar__ring avatar__ring--2"></div>
+            <div class="avatar__img">
+              <!-- REPLACE: swap this SVG with <img src="assets/profile.jpg" alt="Md. Samiujjaman"> -->
+              <svg viewBox="0 0 200 200" role="img" aria-label="Profile placeholder for Md. Samiujjaman">
+                <defs>
+                  <linearGradient id="avBg" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#0d2a52"/>
+                  </linearGradient>
+                  <linearGradient id="avFg" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#2563EB"/>
+                  </linearGradient>
+                </defs>
+                <rect width="200" height="200" fill="url(#avBg)"/>
+                <circle cx="100" cy="78" r="34" fill="url(#avFg)"/>
+                <path d="M30 200c0-44 31-70 70-70s70 26 70 70z" fill="url(#avFg)" opacity=".9"/>
+              </svg>
+            </div>
+          </div>
+
+          <span class="float-chip float-chip--1">HTML5</span>
+          <span class="float-chip float-chip--2">CSS3</span>
+          <span class="float-chip float-chip--3">JS</span>
+          <span class="float-chip float-chip--4">Git</span>
+          <span class="float-chip float-chip--5">&lt;/&gt;</span>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-hint" aria-label="Scroll to About section"><span></span></a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">01 / Who I am</span>
+          <h2 class="section__title">About <span class="gradient-text">Me</span></h2>
+        </header>
+
+        <div class="about__grid">
+          <div class="about__media reveal">
+            <div class="about__frame glass">
+              <!-- REPLACE: put a second photo here, e.g. <img src="assets/about.jpg" alt="..."> -->
+              <div class="about__art" aria-hidden="true">
+                <div class="code-window">
+                  <div class="code-window__bar"><i></i><i></i><i></i></div>
+                  <pre><code><span class="c-k">const</span> <span class="c-v">developer</span> = {
+  <span class="c-p">name</span>: <span class="c-s">'Md. Samiujjaman'</span>,
+  <span class="c-p">role</span>: <span class="c-s">'Frontend Developer'</span>,
+  <span class="c-p">stack</span>: [<span class="c-s">'HTML'</span>, <span class="c-s">'CSS'</span>, <span class="c-s">'JS'</span>],
+  <span class="c-p">passion</span>: <span class="c-s">'Clean UI'</span>
+};</code></pre>
+                </div>
+              </div>
+              <div class="about__tags">
+                <span>Clean Code</span><span>Responsive</span><span>Pixel-Perfect</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about__content">
+            <p class="about__lead reveal">I'm <strong>Md. Samiujjaman</strong>, a passionate Frontend Developer dedicated to creating modern, responsive, and user-friendly web experiences. I enjoy writing clean code, exploring new technologies, and transforming creative ideas into functional websites.</p>
+
+            <div class="about__cards">
+              <article class="mini-card glass reveal">
+                <span class="icon-box"><svg class="icon"><use href="#i-user"/></svg></span>
+                <h3>My Introduction</h3>
+                <p>A curious frontend developer who loves crafting interfaces that feel fast, polished and effortless to use. <em class="ph">(Edit this text)</em></p>
+              </article>
+              <article class="mini-card glass reveal">
+                <span class="icon-box"><svg class="icon"><use href="#i-compass"/></svg></span>
+                <h3>My Journey</h3>
+                <p>From my first line of HTML to building interactive projects, every step has been about learning by building. <em class="ph">(Edit this text)</em></p>
+              </article>
+              <article class="mini-card glass reveal">
+                <span class="icon-box"><svg class="icon"><use href="#i-heart"/></svg></span>
+                <h3>My Passion</h3>
+                <p>I'm passionate about clean code, smooth animations and the small details that make a website memorable. <em class="ph">(Edit this text)</em></p>
+              </article>
+              <article class="mini-card glass reveal">
+                <span class="icon-box"><svg class="icon"><use href="#i-target"/></svg></span>
+                <h3>My Future Goals</h3>
+                <p>To grow into a professional frontend engineer and build products that people genuinely enjoy using. <em class="ph">(Edit this text)</em></p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">02 / What I know</span>
+          <h2 class="section__title">Technical <span class="gradient-text">Skills</span></h2>
+          <p class="section__sub">The tools and techniques I use to bring interfaces to life.</p>
+        </header>
+
+        <div class="skills__grid">
+          <article class="skill-card glass tilt reveal">
+            <span class="icon-box"><svg class="icon"><use href="#i-code"/></svg></span>
+            <h3>HTML5</h3>
+            <p>Semantic, accessible and SEO-friendly markup.</p>
+          </article>
+          <article class="skill-card glass tilt reveal">
+            <span class="icon-box"><svg class="icon"><use href="#i-layers"/></svg></span>
+            <h3>CSS3</h3>
+            <p>Flexbox, Grid, variables and modern styling.</p>
+          </article>
+          <article class="skill-card glass tilt reveal">
+            <span class="icon-box"><svg class="icon"><use href="#i-terminal"/></svg></span>
+            <h3>JavaScript</h3>
+            <p>Modern ES6+ for interactive experiences.</p>
+          </article>
+          <article class="skill-card glass tilt reveal">
+            <span class="icon-box"><svg class="icon"><use href="#i-phone"/></svg></span>
+            <h3>Responsive Web Design</h3>
+            <p>Layouts that adapt from mobile to desktop.</p>
+          </article>
+          <article class="skill-card glass tilt reveal">
+            <span class="icon-box"><svg class="icon"><use href="#i-star"/></svg></span>
+            <h3>CSS Animations</h3>
+            <p>Smooth transitions, keyframes and micro-interactions.</p>
+          </article>
+          <article class="skill-card glass tilt reveal">
+            <span class="icon-box"><svg class="icon"><use href="#i-pointer"/></svg></span>
+            <h3>DOM Manipulation</h3>
+            <p>Dynamic content, events and UI behaviour.</p>
+          </article>
+          <article class="skill-card glass tilt reveal">
+            <span class="icon-box"><svg class="icon"><use href="#i-branch"/></svg></span>
+            <h3>Git &amp; GitHub</h3>
+            <p>Version control and collaborative workflows.</p>
+          </article>
+          <article class="skill-card glass tilt reveal">
+            <span class="icon-box"><svg class="icon"><use href="#i-gauge"/></svg></span>
+            <h3>Website Optimization</h3>
+            <p>Fast loading, performance and best practices.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">03 / Portfolio</span>
+          <h2 class="section__title">My Creative <span class="gradient-text">Works</span></h2>
+          <p class="section__sub">Placeholder projects — replace titles, links and images with your real work.</p>
+        </header>
+
+        <div class="filters reveal" role="tablist" aria-label="Filter projects">
+          <button class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">All Projects</button>
+          <button class="filter-btn" data-filter="html-css" role="tab" aria-selected="false">HTML &amp; CSS</button>
+          <button class="filter-btn" data-filter="javascript" role="tab" aria-selected="false">JavaScript</button>
+          <button class="filter-btn" data-filter="responsive" role="tab" aria-selected="false">Responsive Websites</button>
+        </div>
+
+        <div class="projects__grid" id="projectsGrid">
+
+          <!-- Project 1 -->
+          <article class="project glass" data-category="html-css responsive">
+            <div class="project__media pm-1">
+              <!-- REPLACE: <img src="assets/project-1.jpg" alt="Project 1 preview"> -->
+              <div class="mock"><i></i><i></i><i></i><b></b><b></b></div>
+              <div class="project__overlay">
+                <a href="#" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">Live Demo <svg class="icon"><use href="#i-external"/></svg></a>
+              </div>
+            </div>
+            <div class="project__body">
+              <h3>Business Landing Page</h3>
+              <p>A clean, conversion-focused landing page with a modern layout and smooth sections.</p>
+              <ul class="tags"><li>HTML5</li><li>CSS3</li><li>Responsive</li></ul>
+              <div class="project__links">
+                <a href="#" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <a href="#" class="btn btn--ghost btn--sm" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-github"/></svg> Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project glass" data-category="javascript">
+            <div class="project__media pm-2">
+              <div class="mock"><i></i><i></i><i></i><b></b><b></b></div>
+              <div class="project__overlay">
+                <a href="#" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">Live Demo <svg class="icon"><use href="#i-external"/></svg></a>
+              </div>
+            </div>
+            <div class="project__body">
+              <h3>Interactive To-Do App</h3>
+              <p>Add, complete and delete tasks with local storage so nothing gets lost on refresh.</p>
+              <ul class="tags"><li>JavaScript</li><li>DOM</li><li>LocalStorage</li></ul>
+              <div class="project__links">
+                <a href="#" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <a href="#" class="btn btn--ghost btn--sm" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-github"/></svg> Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project glass" data-category="javascript responsive">
+            <div class="project__media pm-3">
+              <div class="mock"><i></i><i></i><i></i><b></b><b></b></div>
+              <div class="project__overlay">
+                <a href="#" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">Live Demo <svg class="icon"><use href="#i-external"/></svg></a>
+              </div>
+            </div>
+            <div class="project__body">
+              <h3>Weather Dashboard</h3>
+              <p>Search any city and see live weather details in a beautiful, responsive interface.</p>
+              <ul class="tags"><li>JavaScript</li><li>API</li><li>Responsive</li></ul>
+              <div class="project__links">
+                <a href="#" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <a href="#" class="btn btn--ghost btn--sm" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-github"/></svg> Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project glass" data-category="html-css">
+            <div class="project__media pm-4">
+              <div class="mock"><i></i><i></i><i></i><b></b><b></b></div>
+              <div class="project__overlay">
+                <a href="#" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">Live Demo <svg class="icon"><use href="#i-external"/></svg></a>
+              </div>
+            </div>
+            <div class="project__body">
+              <h3>Restaurant Website</h3>
+              <p>A tasty static website featuring a menu grid, gallery and reservation section.</p>
+              <ul class="tags"><li>HTML5</li><li>CSS3</li><li>Flexbox</li></ul>
+              <div class="project__links">
+                <a href="#" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <a href="#" class="btn btn--ghost btn--sm" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-github"/></svg> Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project glass" data-category="responsive html-css">
+            <div class="project__media pm-5">
+              <div class="mock"><i></i><i></i><i></i><b></b><b></b></div>
+              <div class="project__overlay">
+                <a href="#" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">Live Demo <svg class="icon"><use href="#i-external"/></svg></a>
+              </div>
+            </div>
+            <div class="project__body">
+              <h3>Agency Portfolio Template</h3>
+              <p>A fully responsive multi-section template built with CSS Grid and modern design.</p>
+              <ul class="tags"><li>CSS Grid</li><li>Responsive</li><li>UI Design</li></ul>
+              <div class="project__links">
+                <a href="#" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <a href="#" class="btn btn--ghost btn--sm" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-github"/></svg> Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="project glass" data-category="javascript">
+            <div class="project__media pm-6">
+              <div class="mock"><i></i><i></i><i></i><b></b><b></b></div>
+              <div class="project__overlay">
+                <a href="#" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">Live Demo <svg class="icon"><use href="#i-external"/></svg></a>
+              </div>
+            </div>
+            <div class="project__body">
+              <h3>Quiz Game</h3>
+              <p>A timed multiple-choice quiz with scoring, progress tracking and result summary.</p>
+              <ul class="tags"><li>JavaScript</li><li>ES6</li><li>Logic</li></ul>
+              <div class="project__links">
+                <a href="#" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <a href="#" class="btn btn--ghost btn--sm" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-github"/></svg> Source Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section section--alt" id="services">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">04 / What I offer</span>
+          <h2 class="section__title">Professional <span class="gradient-text">Services</span></h2>
+          <p class="section__sub">Everything you need to launch a fast, modern and beautiful website.</p>
+        </header>
+
+        <div class="services__grid">
+          <article class="service glass reveal">
+            <span class="icon-box icon-box--lg"><svg class="icon"><use href="#i-code"/></svg></span>
+            <h3>Frontend Web Development</h3>
+            <p>Pixel-perfect interfaces built with clean, maintainable HTML, CSS and JavaScript.</p>
+          </article>
+          <article class="service glass reveal">
+            <span class="icon-box icon-box--lg"><svg class="icon"><use href="#i-phone"/></svg></span>
+            <h3>Responsive Website Design</h3>
+            <p>Websites that look and work great on every phone, tablet and desktop screen.</p>
+          </article>
+          <article class="service glass reveal">
+            <span class="icon-box icon-box--lg"><svg class="icon"><use href="#i-layout"/></svg></span>
+            <h3>Landing Page Development</h3>
+            <p>High-impact landing pages designed to grab attention and drive action.</p>
+          </article>
+          <article class="service glass reveal">
+            <span class="icon-box icon-box--lg"><svg class="icon"><use href="#i-refresh"/></svg></span>
+            <h3>Website Redesign</h3>
+            <p>Give your outdated website a fresh, modern look and a better user experience.</p>
+          </article>
+          <article class="service glass reveal">
+            <span class="icon-box icon-box--lg"><svg class="icon"><use href="#i-zap"/></svg></span>
+            <h3>Website Optimization</h3>
+            <p>Faster load times, cleaner code and improved performance and accessibility.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ JOURNEY ============ -->
+    <section class="section" id="journey">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">05 / My path</span>
+          <h2 class="section__title">My <span class="gradient-text">Journey</span></h2>
+          <p class="section__sub">Edit the dates and descriptions below to tell your own story.</p>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline__item reveal">
+            <span class="timeline__dot"></span>
+            <div class="timeline__card glass">
+              <time>20XX — Edit date</time>
+              <h3>Started Learning HTML &amp; CSS</h3>
+              <p>Took the first steps into web development and built my first static pages. <em class="ph">(Edit this text)</em></p>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__dot"></span>
+            <div class="timeline__card glass">
+              <time>20XX — Edit date</time>
+              <h3>Learned JavaScript</h3>
+              <p>Added interactivity and logic to my websites with modern JavaScript. <em class="ph">(Edit this text)</em></p>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__dot"></span>
+            <div class="timeline__card glass">
+              <time>20XX — Edit date</time>
+              <h3>Started Frontend Projects</h3>
+              <p>Began building real projects, practising layouts, animations and responsive design. <em class="ph">(Edit this text)</em></p>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__dot"></span>
+            <div class="timeline__card glass">
+              <time>2026 — Present</time>
+              <h3>Current Learning Journey</h3>
+              <p>Sharpening my skills every day and exploring new tools and best practices. <em class="ph">(Edit this text)</em></p>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__dot timeline__dot--future"></span>
+            <div class="timeline__card glass">
+              <time>Future</time>
+              <h3>Future Career Goals</h3>
+              <p>Grow into a professional frontend engineer and work on impactful products. <em class="ph">(Edit this text)</em></p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section--alt" id="contact">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">06 / Get in touch</span>
+          <h2 class="section__title">Have a Project <span class="gradient-text">in Mind?</span></h2>
+          <p class="section__sub">Let's work together and create something amazing.</p>
+        </header>
+
+        <div class="contact__grid">
+          <aside class="contact__info glass reveal">
+            <h3>Contact Information</h3>
+            <p>Feel free to reach out for collaborations, freelance work or just a friendly hello.</p>
+            <ul class="contact__list">
+              <li><span class="icon-box"><svg class="icon"><use href="#i-mail"/></svg></span>
+                <div><small>Email</small><a href="mailto:hello@samiujjaman.dev">hello@samiujjaman.dev</a></div></li>
+              <li><span class="icon-box"><svg class="icon"><use href="#i-pin"/></svg></span>
+                <div><small>Location</small><span>Bangladesh</span></div></li>
+            </ul>
+            <ul class="socials" aria-label="Social media">
+              <li><a href="https://github.com/samiujjaman" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg class="icon"><use href="#i-github"/></svg></a></li>
+              <li><a href="https://linkedin.com/in/samiujjaman" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg class="icon"><use href="#i-linkedin"/></svg></a></li>
+              <li><a href="https://facebook.com/samiujjaman" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg class="icon"><use href="#i-facebook"/></svg></a></li>
+              <li><a href="https://instagram.com/samiujjaman" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg class="icon"><use href="#i-instagram"/></svg></a></li>
+            </ul>
+          </aside>
+
+          <form class="contact__form glass reveal" id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name" required aria-describedby="name-err">
+              <small class="field__error" id="name-err" role="alert"></small>
+            </div>
+            <div class="field">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required aria-describedby="email-err">
+              <small class="field__error" id="email-err" role="alert"></small>
+            </div>
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What is this about?" required aria-describedby="subject-err">
+              <small class="field__error" id="subject-err" role="alert"></small>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project…" required aria-describedby="message-err"></textarea>
+              <small class="field__error" id="message-err" role="alert"></small>
+            </div>
+            <button type="submit" class="btn btn--primary btn--block">Send Message <svg class="icon"><use href="#i-send"/></svg></button>
+            <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#home" class="logo">SAMIUJJAMAN<span>.DEV</span></a>
+        <p>Building modern, responsive and interactive web experiences with clean code and creative design.</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#journey">Journey</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__social">
+        <h4>Follow Me</h4>
+        <ul class="socials" aria-label="Social media">
+          <li><a href="https://github.com/samiujjaman" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg class="icon"><use href="#i-github"/></svg></a></li>
+          <li><a href="https://linkedin.com/in/samiujjaman" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg class="icon"><use href="#i-linkedin"/></svg></a></li>
+          <li><a href="https://facebook.com/samiujjaman" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg class="icon"><use href="#i-facebook"/></svg></a></li>
+          <li><a href="https://instagram.com/samiujjaman" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg class="icon"><use href="#i-instagram"/></svg></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>&copy; 2026 Md. Samiujjaman. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top"><svg class="icon"><use href="#i-up"/></svg></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
